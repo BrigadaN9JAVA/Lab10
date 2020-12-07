@@ -9,7 +9,7 @@ public class Client {
     public static void main(String[] args) {
         VideoBlog Dima = new VideoBlog("Dima Tereschenko");
         Dima.addVideo(new Video("HomeVideoWithSa...", "hub.com/dimaAndS", 1000, 100, 0));
-        Dima.addVideo(new Video("HomeVideoWithIra...", "hub.com/dimaAndI", 2000, 1000, 0));
+        Dima.addVideo(new Video("Sashka+Ira=❤", "hub.com/SandI", 200000, 10000, 0));
         Dima.getVideos().get(0).addComment(new Comment("Какие эмоции, какая страсть, просто вах", 0, 100));
         Dima.getVideos().get(0).addComment(new Comment("Ну такое...", 1000, 0));
         Dima.getVideos().get(1).addComment(new Comment("Первый комментарий", 0, 1000));
